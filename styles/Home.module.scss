@@ -1,0 +1,65 @@
+.main {
+  background: #f2f2f2;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .calculator {
+    width: 245px;
+    height: 495px;
+    background: black;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    .camera {
+      margin-top: 4%;
+      align-self: baseline;
+      border-radius: 50%;
+      margin-left: 6rem;
+      width: 6px;
+      aspect-ratio: 1/1;
+      background: rgb(45, 45, 117);
+    }
+    .bar {
+      margin-top: 2%;
+      width: 70%;
+      height: 3%;
+      display: flex;
+      color: #f2f2f2;
+      justify-content: space-between;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 600;
+      p{
+        font-size: 0.7rem;
+      }
+    }
+    .display {
+      width: 90%;
+      color: white;
+      height: 20%;
+      margin-top: 1rem;
+      border-radius: 1rem;
+      justify-content: end;
+    }
+    .buttons {
+      width: 90%;
+      height: 57%;
+      margin-top: 1rem;
+      justify-content: space-around;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .footer {
+      margin-top: 2rem;
+      border-radius: 1rem;
+      height: 0.5%;
+      width: 35%;
+      background: hsl(0, 0%, 95%);
+    }
+  }
+}
