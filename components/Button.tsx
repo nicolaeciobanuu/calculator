@@ -13,7 +13,7 @@ function Button({ background, value, color, zero }: ButtonProps) {
       style={
         zero
           ? {
-              width: "40%",
+              width: "44%",
               backgroundColor: background,
               color: color,
               borderRadius: "999em",
